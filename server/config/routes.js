@@ -8,7 +8,6 @@ module.exports = [
   {method: 'get', path: '/contact', config: require('../routes/general/contact')},
 
   {method: 'get', path: '/sum/{x}/{y}', config: require('../routes/math/sum')},
-  {method: 'get', path: '/squares/{list}', config: require('../routes/math/squares')},
-
+  {method: 'get', path: '/squares/{z}', config: require('../routes/math/squares')},
   {method: 'get', path: '/monsters', config: require('../routes/monsters/index')}
 ];
